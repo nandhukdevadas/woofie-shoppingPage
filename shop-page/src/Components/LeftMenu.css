@@ -1,0 +1,82 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+.left-menu
+{
+    width: 17.5vw;
+    height: 100vh;
+    background-color: #FFFBFE;
+}
+
+.left-menu-title
+{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 15px 0px 0px 15px;
+}
+
+/* Sorting Feature */
+
+.sorting-feature
+{
+    padding: 10px 0px 0px 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-select
+{
+    border-radius: 15px;
+}
+
+.sort-selection--style {
+padding: 11px;
+border: 1px solid #ccc;
+border-radius: 15px;
+font-size: 14px;
+background-color: white;
+}
+
+.option-select {
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.option-select:hover {
+background-color: #eee;
+}
+
+
+/* Check Box */
+
+label
+{
+    padding-left: 10px;
+}
+
+.custom-checkbox input {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: px;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+  }
+  
+  .custom-checkbox input:checked {
+    background-color: #D0BCFF;
+    border-color: #D0BCFF;
+  }
+  
+  .custom-checkbox input:checked:hover {
+    background-color: #D0BCFF;
+  }
+
+
+
+  
