@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
+.left-menu-wrap
+{
+    display: flex;
+}
+
 .left-menu
 {
     width: 17.5vw;
@@ -76,6 +81,69 @@ label
   .custom-checkbox input:checked:hover {
     background-color: #D0BCFF;
   }
+
+  .row_products
+  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .card-wrap
+  {
+    background-color: #F6EDFF;
+    height: 27vw;
+    width: 18vw;
+    margin: 15px;
+    border-radius: 15px;
+  }
+
+  .card-image
+  {
+    height: 14vw;
+    width: 12vw;
+    border-radius: 15px;
+  }
+
+  .image
+  {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .product-title,
+  .product-rating,
+  .product-price,
+  .add-to-cart
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+
+  .add-to-cart input
+  {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #D0BCFF;
+    font-weight: 500;
+  }
+
+  .add-to-cart input:active
+  {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #B69DF8;
+  }
+
+
 
 
 
